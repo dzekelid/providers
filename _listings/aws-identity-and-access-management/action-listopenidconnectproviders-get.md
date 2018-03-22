@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListOpenIDConnectProviders&k=1:
+  /?Action=ListOpenIDConnectProviders:
     get:
       summary: ' List Open I D Connect Providers '
       description: |-
