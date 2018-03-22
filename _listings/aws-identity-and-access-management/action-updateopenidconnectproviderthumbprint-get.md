@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateOpenIDConnectProviderThumbprint&k=1:
+  /?Action=UpdateOpenIDConnectProviderThumbprint:
     get:
       summary: ' Update Open I D Connect Provider Thumbprint '
       description: |-
