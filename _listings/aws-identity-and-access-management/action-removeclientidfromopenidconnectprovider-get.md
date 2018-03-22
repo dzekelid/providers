@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveClientIDFromOpenIDConnectProvider&k=1:
+  /?Action=RemoveClientIDFromOpenIDConnectProvider:
     get:
       summary: ' Remove Client I D From Open I D Connect Provider '
       description: |-
