@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSAMLProviders&k=1:
+  /?Action=ListSAMLProviders:
     get:
       summary: ' List S A M L Providers '
       description: Lists the SAML provider resource objects defined in IAM in the
