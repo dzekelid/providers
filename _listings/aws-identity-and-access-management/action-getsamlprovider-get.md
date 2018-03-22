@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSAMLProvider&k=1:
+  /?Action=GetSAMLProvider:
     get:
       summary: ' Get S A M L Provider '
       description: |-
