@@ -26,7 +26,7 @@ apis:
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-unregister-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-register-post.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
