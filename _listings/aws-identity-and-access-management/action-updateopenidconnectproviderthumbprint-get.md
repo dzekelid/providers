@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Update Open I D Connect Provider Thumbprint
   version: 1.0.0
+  description: |-
+    Replaces the existing list of server certificate thumbprints associated with an OpenID
+          Connect (OIDC) provider resource object with a new list of thumbprints.
 schemes:
 - http
 produces:
