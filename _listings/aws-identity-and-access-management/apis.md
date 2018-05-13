@@ -31,15 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-updateopenidconnectproviderthumbprint-get.md
-- name: AWS Identity and Access Management API Create Open I D Connect Provider
-  description: Creates an IAM entity to describe an identity provider (IdP) that supports.
+- name: AWS Identity and Access Management API Create S A M L Provider
+  description: |-
+    Creates an IAM resource that describes an identity provider (IdP) that supports SAML
+          2.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-createopenidconnectprovider-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-createsamlprovider-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
