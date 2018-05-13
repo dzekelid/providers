@@ -31,15 +31,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-updateopenidconnectproviderthumbprint-get.md
-- name: AWS Identity and Access Management API List S A M L Providers
-  description: Lists the SAML provider resource objects defined in IAM in the account.
+- name: AWS Identity and Access Management API Remove Client I D From Open I D Connect
+    Provider
+  description: |-
+    Removes the specified client ID (also known as audience) from the list of client IDs
+          registered for the specified IAM OpenID Connect (OIDC) provider resource object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-listsamlproviders-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-removeclientidfromopenidconnectprovider-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
