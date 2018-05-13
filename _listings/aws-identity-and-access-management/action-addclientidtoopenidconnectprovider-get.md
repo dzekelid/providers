@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Add Client I D To Open I D Connect
+    Provider
   version: 1.0.0
+  description: |-
+    Adds a new client ID (also known as audience) to the list of client IDs already
+          registered for the specified IAM OpenID Connect (OIDC) provider resource.
 schemes:
 - http
 produces:
