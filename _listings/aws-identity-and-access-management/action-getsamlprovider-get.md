@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get S A M L Provider
   version: 1.0.0
+  description: |-
+    Returns the SAML provider metadocument that was uploaded when the IAM SAML provider
+          resource object was created or updated.
 schemes:
 - http
 produces:
