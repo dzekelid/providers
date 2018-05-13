@@ -31,16 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-updateopenidconnectproviderthumbprint-get.md
-- name: AWS Identity and Access Management API Delete Open I D Connect Provider
-  description: Deletes an OpenID Connect identity provider (IdP) resource object in
-    IAM.
+- name: AWS Identity and Access Management API Delete S A M L Provider
+  description: Deletes a SAML provider resource in IAM.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-deleteopenidconnectprovider-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-deletesamlprovider-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
