@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get Open I D Connect Provider
   version: 1.0.0
+  description: |-
+    Returns information about the specified OpenID Connect (OIDC) provider resource object
+          in IAM.
 schemes:
 - http
 produces:
