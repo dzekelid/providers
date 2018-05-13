@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-get.md
-- name: Azure Resource Manager API Providers List
-  description: Gets all resource providers for a subscription.
+- name: Azure Resource Manager API Providers Get
+  description: Gets the specified resource provider.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-get-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
