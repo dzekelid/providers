@@ -31,18 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-updateopenidconnectproviderthumbprint-get.md
-- name: AWS Identity and Access Management API Add Client I D To Open I D Connect
-    Provider
-  description: |-
-    Adds a new client ID (also known as audience) to the list of client IDs already
-          registered for the specified IAM OpenID Connect (OIDC) provider resource.
+- name: AWS Identity and Access Management API Create Open I D Connect Provider
+  description: Creates an IAM entity to describe an identity provider (IdP) that supports.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-addclientidtoopenidconnectprovider-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-createopenidconnectprovider-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
