@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Remove Client I D From Open I D Connect
+    Provider
   version: 1.0.0
+  description: |-
+    Removes the specified client ID (also known as audience) from the list of client IDs
+          registered for the specified IAM OpenID Connect (OIDC) provider resource object.
 schemes:
 - http
 produces:
