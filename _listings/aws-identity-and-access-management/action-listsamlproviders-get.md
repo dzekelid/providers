@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List S A M L Providers
   version: 1.0.0
+  description: Lists the SAML provider resource objects defined in IAM in the account.
 schemes:
 - http
 produces:
