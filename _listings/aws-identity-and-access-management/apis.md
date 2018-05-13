@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-updateopenidconnectproviderthumbprint-get.md
-- name: AWS Identity and Access Management API Get S A M L Provider
+- name: AWS Identity and Access Management API List Open I D Connect Providers
   description: |-
-    Returns the SAML provider metadocument that was uploaded when the IAM SAML provider
-          resource object was created or updated.
+    Lists information about the IAM OpenID Connect (OIDC) provider resource objects
+          defined in the AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-getsamlprovider-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/aws-identity-and-access-management/action-listopenidconnectproviders-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
