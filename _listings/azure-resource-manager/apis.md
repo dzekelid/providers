@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-get.md
-- name: Azure Resource Manager API Providers Unregister
-  description: Unregisters a subscription from a resource provider.
+- name: Azure Resource Manager API Providers Register
+  description: Registers a subscription with a resource provider.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Providers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-unregister-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-register-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-unregister-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-resourceprovidernamespace-register-post-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
