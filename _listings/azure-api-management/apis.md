@@ -27,7 +27,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-openidconnectproviders-opid-delete.md
+- name: Azure API Management API IdentityProviders ListByService
+  description: Lists a collection of Identity Provider configured in the specified
+    service instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/api-management/
+  baseURL: http:://management.azure.com//
+  tags: Providers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-identityproviders-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/providers/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-identityproviders-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/api-management/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/api-management/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/api-management/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/api-management/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
 - type: x-pricing
