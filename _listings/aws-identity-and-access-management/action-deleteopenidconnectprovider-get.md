@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Delete Open I D Connect Provider
   version: 1.0.0
+  description: Deletes an OpenID Connect identity provider (IdP) resource object in
+    IAM.
 schemes:
 - http
 produces:
