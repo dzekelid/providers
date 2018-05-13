@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Create Open I D Connect Provider
   version: 1.0.0
+  description: Creates an IAM entity to describe an identity provider (IdP) that supports.
 schemes:
 - http
 produces:
