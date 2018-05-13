@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Create S A M L Provider
   version: 1.0.0
+  description: |-
+    Creates an IAM resource that describes an identity provider (IdP) that supports SAML
+          2.
 schemes:
 - http
 produces:
